@@ -1,29 +1,25 @@
 p {
     color: rgb(1, 26, 17);
     font-family: Arial, Helvetica, sans-serif;
+
 }
 img{
     width: 400px;
     height: 400px;
     border: 3px solid rgb(0, 0, 0); 
-}
-.container{
-    background-color: rgb(187, 110, 38);
-    padding: 55px 40px; /* от контента до краев блока че */
-    margin: 50px; /* отступыыф вокруг элемента самого */
-    width: 200px;
-    height: 50px;
-    border: 3px solid rgb(134, 81, 21); /* цвет бордера и размре бордер обводка  */ 
+    display: flex;
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
 
+
 }
 header {
-            text-align: center; /* где текст посередине слева справа*/
-            color: rgb(190, 102, 0);
-            padding: 30px;
-            border-radius: 15px;
-            margin-bottom: 30px;
-            font-weight: 700; /* жирный */
-        }
+    text-align: center;
+    background: rgb(185, 98, 15); 
+    color: rgb(31, 17, 0);
+    padding: 30px;
+    border-radius: 15px; /* на скок углы круглые */
+    margin-bottom: 30px; /* отступ снизу самой этой */
+    font-weight: 700;
+}
