@@ -1,25 +1,61 @@
 p {
-    color: rgb(1, 26, 17);
+    color: rgb(255, 215, 170);
     font-family: Arial, Helvetica, sans-serif;
-
+    font-size: 16px;
 }
 img{
     width: 400px;
     height: 400px;
-    border: 3px solid rgb(0, 0, 0); 
-    display: flex;
+    border: 3px solid rgb(0, 0, 0); /* рамка */
+    border-radius: 10px; /* на скок углы круглые */
+    box-shadow: 0 0 15px rgba(255, 69, 0, 0.5); /* тень */
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
-
-
+    color: #ff4500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* тень етекста */
+}
+h2 {
+    color: #ff8c00;
+    padding-bottom: 10px; /* отступ снизу для текста */
 }
 header {
     text-align: center;
     background: rgb(185, 98, 15); 
     color: rgb(31, 17, 0);
-    padding: 30px;
-    border-radius: 15px; /* на скок углы круглые */
-    margin-bottom: 30px; /* отступ снизу самой этой */
+    padding: 30px; /* внутренний отступ */
+    border-radius: 15px; 
+    margin-bottom: 30px; /* внешний отступ снизу самой этой */
     font-weight: 700;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1a0f0f;
+    color: #ff8c00;
+    margin: 0; /* внешние тступы */
+    padding: 20px;
+}
+main {
+    margin: 0 auto; /* по центру отстьтупы внешние выравниванеие */
+    background-color: #2c1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 69, 0, 0.3); 
+}
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #3a2525;
+    border-radius: 8px;
+}
+.tradicii ul {
+    padding: 0;
+}
+.tradicii li {
+    padding: 8px 0;
+    font-size: 16px;
+}
+.kartinka {
+    text-align: center;
+    margin: 30px 0;
 }
